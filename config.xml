@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id = "com.cordovacookbook.ex101"
+	version = "1.0.0">
+
+	<name>Example 10-1</name>
+	<description>An example application that uses the PhoneGap File API</description>
+	<author href="http://johnwargo.com" email="john@johnwargo.com">John M. Wargo</author>
+	 
+	<feature name = "http://api.phonegap.com/1.0/device"/>
+	<preference name="phonegap-version" value="cli-6.0.0" /> 
+	<preference name="android-minSdkVersion" value="10" />
+	<preference name = "orientation" value = "default"/>
+	<preference name = "target-device" value = "universal"/>
+	<preference name = "fullscreen" value = "false"/>
+	
+	<preference name="AndroidPersistentFileLocation" value="Compatibility" />
+
+	<plugin name="cordova-plugin-file" spec="~4.3.3" />
+</widget>
+
