@@ -17,7 +17,7 @@
 	
 	<preference name="AndroidPersistentFileLocation" value="Compatibility" />
 
-	<plugin name="cordova-plugin-file" spec="~4.3.3" />
+	<plugin name="cordova-plugin-file" spec="~4.3.2" />
 	<platform name="android" />
 </widget>
 
